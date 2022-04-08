@@ -71,3 +71,11 @@ td {
 a {
   color: #000;
 }
+
+
+
+
+/*フラッシュメッセージ*/
+#notice {
+  color: green;
+}
