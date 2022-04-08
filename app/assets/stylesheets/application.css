@@ -40,6 +40,7 @@ p {
 
 
 
+
 table {
   display: table;
   border-collapse: separate;
@@ -55,7 +56,7 @@ th {
   display: table-cell;
   vertical-align: inherit;
   font-weight: bold;
-  text-align: internal-center;
+  text-align: center;
 }
 
 td {
@@ -64,8 +65,7 @@ td {
   padding-right: 5px;
   display: table-cell;
   vertical-align: inherit;
-  font-weight: bold;
-  text-align: center;
+  text-align: start;
 }
 
 a {
@@ -73,6 +73,60 @@ a {
 }
 
 
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+
+
+
+
+.field, .actions {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+}
+
+/*エラーメッセージ*/
+#erroe_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+#erroe_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+ul {
+  display: block;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style: square;
+}
+
+
+div {
+  display: block;
+}
 
 
 /*フラッシュメッセージ*/
