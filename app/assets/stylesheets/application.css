@@ -38,8 +38,18 @@ p {
 }
 
 
+a {
+  color: #000;
+}
 
+a:hover {
+  background-color: #333;
+  color: #fff
+}
 
+a:visited {
+  color: #808080;
+}
 
 table {
   display: table;
